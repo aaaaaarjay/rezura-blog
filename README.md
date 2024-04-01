@@ -1,9 +1,10 @@
-# Nikhil Maguwala - Space Themed Portfolio Website
+# Arjay Alangcas Blog
 
 <div align="center">
 <br />
-    <a href="https://github.com/nikhilmaguwala/nikhil-maguwala-space-portfolio" target="_blank">
-      <img src="https://raw.githubusercontent.com/nikhilmaguwala/nikhil-maguwala-space-portfolio/main/public/space_photo.png?token=GHSAT0AAAAAACMXOZWRAW6E3TZEYCAKJ5HGZNG5MCA" alt="Project Banner">
+    <a href="https://github.com/aaaaaarjay/rezura" target="_blank">
+      <img src="![image](https://github.com/aaaaaarjay/rezura/assets/124123730/a3776d0a-4baa-4c34-b786-8a009c241e30)
+" alt="Project Banner">
     </a>
   <br />
 
