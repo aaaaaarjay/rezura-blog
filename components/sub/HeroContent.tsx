@@ -26,11 +26,11 @@ const HeroContent = () => {
                     className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
                 >
                   <span>
-                    Im{' '}
+                    Im{" "}
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 m-auto">
                         Arjay Alangcas
                         <br />
-                    </span>{' '}
+                    </span>{" "}
                     FrontEnd Developer
                     </span>
                 </motion.div>
@@ -65,7 +65,7 @@ const HeroContent = () => {
                       {" "}
                       Studio PInya,{" "}
                     </span>    
-                         where I'm actively expanding and applying my skill set into it.
+                         where I"m actively expanding and applying my skill set into it.
                     </span>
                 </motion.p>
                 <motion.a

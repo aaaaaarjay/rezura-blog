@@ -1,13 +1,13 @@
 "use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
-import { Interest } from '@/constants'; // Import the data
+import React from "react";
+import { motion } from "framer-motion";
+import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
+import { Interest } from "@/constants"; // Import the data
 
 const InterestComponent: React.FC = () => {
     return (
-        <div className='w-full h-auto flex flex-col items-center justify-center'>
+        <div className="w-full h-auto flex flex-col items-center justify-center">
             {/* Big Icons */}
             <div className="flex justify-center mt-[10px]">
                 {Interest.map((item: { name: string, src: string }, index: number) => (
@@ -28,7 +28,7 @@ const InterestComponent: React.FC = () => {
             {/* Description */}
             <motion.div
                 variants={slideInFromRight(0.5)}
-                className=' text-[20px] text-gray-200 mb-10 mt-10 text-center'
+                className=" text-[20px] text-gray-200 mb-10 mt-10 text-center"
             >
                 My overarching goal is to evolve into a skilled front-end developer specializing in user interface design, driven by a passion for
                 <br />

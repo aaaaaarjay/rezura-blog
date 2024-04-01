@@ -34,27 +34,27 @@ const Navbar = () => {
 
                 <div className="md:hidden" style={{ position: "absolute", top: "calc(100% + 10px)", left: 0, width: "100%" }}>
                     <div className={`${menuOpen ? 'block' : 'hidden'}`}>
-                        <div className="flex flex-col items-center w-[full] bg-[#110c308c] px-4 text-gray-200 rounded-lg font-bold ">
+                        <div className="flex flex-col items-center w-[full] bg-[#110c308c] px-4 text-gray-200 rounded-lg font-semibold ">
                             <a href="#about-me" className="cursor-pointer py-4" onClick={toggleMenu}>
-                            ABOUT ME
+                            About Me
                             </a>
                             <a href="#industry" className="cursor-pointer py-4" onClick={toggleMenu}>
-                                INDUSTRY
+                                Industry
                             </a>
                             <a href="#ojtblog" className="cursor-pointer py-4" onClick={toggleMenu}>
-                                OJT BLOG
+                                OJT Blog
                             </a>
                             <a href="#schoolanddepartment" className="cursor-pointer py-4" onClick={toggleMenu}>
-                                SCHOOL & DEPARTMENT
+                                School & Department
                             </a>
                             <a href="#educationaltour" className="cursor-pointer py-4" onClick={toggleMenu}>
-                                EDUCATIONAL TOUR
+                                Educational Tour
                             </a>
                             <a href="#researchfestival" className="cursor-pointer py-4" onClick={toggleMenu}>
-                                RESEARCH FESTIVAL
+                                Research Festival
                             </a>
                             <a href="#trainingsandseminars" className="cursor-pointer py-4" onClick={toggleMenu}>
-                                TRAININGS & SEMINARS
+                                Trainings & Seminars
                             </a>
                             
                             <div className="flex justify-center gap-6 py-4">
@@ -76,25 +76,25 @@ const Navbar = () => {
 
                 <div className="hidden md:flex items-center md:font-sm justify-center gap-8 w-auto h-auto bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200" style={{ border: "1px solid rgba(112, 66, 248, 0.384)" }}>
                     <a href="#about-me" className="cursor-pointer">
-                        ABOUT ME
+                        About Me
                     </a>
                     <a href="#industry" className="cursor-pointer">
-                        INDUSTRY
+                        Industry
                     </a>
                     <a href="#ojtblog" className="cursor-pointer">
-                        OJT BLOG
+                        OJT Blog
                     </a>
                     <a href="#schoolanddepartment" className="cursor-pointer">
-                        SCHOOL & DEPARTMENT
+                        School & Department
                     </a>
                     <a href="#educationaltour" className="cursor-pointer">
-                        EDUCATIONAL TOUR
+                        Educational Tour
                     </a>
                     <a href="#researchfestival" className="cursor-pointer">
-                        RESEARCH FESTIVAL
+                        Research Festival
                     </a>
                     <a href="#trainingsandseminars" className="cursor-pointer">
-                        TRAININGS & SEMINARS
+                        Trainings & Seminars
                     </a>
                     
                 </div>

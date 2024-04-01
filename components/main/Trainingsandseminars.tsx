@@ -17,7 +17,7 @@ const Trainingsandseminars = () => {
             </h1>
             <motion.div
                 variants={slideInFromLeft(0.5)}
-                className='text-[30px] text-white font-bold mt-[10px] mb-10 text-center'
+                className="text-[30px] text-white font-bold mt-[10px] mb-10 text-center"
             >
                 Certificates
             </motion.div>

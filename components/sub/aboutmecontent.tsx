@@ -1,17 +1,17 @@
 "use client";
 
-import React from 'react';
-import { motion } from 'framer-motion';
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion';
-import { Pinya } from '@/constants'; // Import the data
+import React from "react";
+import { motion } from "framer-motion";
+import { slideInFromLeft, slideInFromRight, slideInFromTop } from "@/utils/motion";
+import { Pinya } from "@/constants"; // Import the data
 
 const Aboutmecontent = () => {
     return (
-        <div className='w-full h-auto flex flex-col items-center justify-center'>
+        <div className="w-full h-auto flex flex-col items-center justify-center">
 
 <motion.div
                 variants={slideInFromLeft(0.5)}
-                className='text-[30px] text-white font-bold mt-[10px] text-center'
+                className="text-[30px] text-white font-bold mt-[10px] text-center"
             >
                 Making apps with modern technologies
             </motion.div>
@@ -36,11 +36,11 @@ const Aboutmecontent = () => {
             
             <motion.div
                 variants={slideInFromRight(0.5)}
-                className=' text-[20px] text-gray-200 text-center'
+                className=" text-[20px] text-gray-200 text-center"
             >
                 These technologies align closely with the requirements of my role at Studio Pinya, motivating my pursuit to master them. 
                 <br />  
-                Additionally, I have a keen interest in languages like HTML, CSS, JavaScript, and PHP, which I've explored through personal projects and coursework.
+                Additionally, I have a keen interest in languages like HTML, CSS, JavaScript, and PHP, which I"ve explored through personal projects and coursework.
             </motion.div>
 
             {/* Big Icons */}

@@ -76,7 +76,7 @@ const Researchfestival = () => {
 
 <motion.div
                 variants={slideInFromLeft(0.5)}
-                className='text-[30px] text-white font-bold mt-[10px] mb-10 text-center'
+                className="text-[30px] text-white font-bold mt-[10px] mb-10 text-center"
             >
                 Presentation
             </motion.div>
