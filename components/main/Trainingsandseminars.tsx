@@ -27,7 +27,7 @@ const Trainingsandseminars = () => {
 
     <div className="max-w-[1500px] flex flex-col md:flex-row gap-10 my-5">
         <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/1.jpg" alt="certs" className="w-[600px] h-auto m-10" />
+            <img src="/1.jpg" alt="certs" className="w-[600px] h-auto m-10"  />
         </div>
         <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
             <img src="/2.jpg" alt="certs" className="w-[600px] h-auto m-10" />
