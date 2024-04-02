@@ -6,10 +6,11 @@ export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
   return (
-    <div className="embla flex justify-center items-center" ref={emblaRef}>
-            <div className="embla__container text-white flex justify-center items-center">
-                <div className="embla__slide">
-                    <img src="/pic1.jpg" alt="1" />
+    <div className="carousel-wrapper">
+      <div className="embla" ref={emblaRef}>
+        <div className="embla__container text-white">
+          <div className="embla__slide">
+            <img src="/pic1.jpg" alt="1" />
                      </div>
                 <div className="embla__slide">
                     <img src="/pic2.jpg" alt="2"/>
@@ -60,6 +61,7 @@ export function EmblaCarousel() {
                     <img src="/pic17.jpg" alt="17"/>
                      </div>
 
+        </div>
         </div>
         </div>
     )

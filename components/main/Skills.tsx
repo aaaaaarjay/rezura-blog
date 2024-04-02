@@ -41,7 +41,7 @@ const Skills = () => {
             </motion.div>
             <motion.div
                 variants={slideInFromRight(0.5)}
-                className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
+                className=' text-[20px] text-gray-200 mb-10 mt-[10px] text-center'
             >
                 Bachelor of Science in Computer Science (BSCS) is a four-year program that includes the study of computing concepts and theories, algorithmic foundations, and new developments in computing.
             </motion.div>

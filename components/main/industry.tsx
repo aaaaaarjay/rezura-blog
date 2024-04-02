@@ -12,7 +12,7 @@ const Projects = () => {
             className="flex flex-col items-center justify-center py-20 "
             id="industry"
         >
-            <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+            <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 text-center">
                 INDUSTRY
             </h1>
             <div className="h-full w-full flex flex-col md:flex-col gap-10 px-10 justify-center items-center rounded-lg shadow-lg border border-[#2A0E61] p-20">

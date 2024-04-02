@@ -79,7 +79,7 @@ html {
     display: flex;
     justify-content: center; /* Center the slides horizontally */
     align-items: center; /* Center the slides vertically */
-    height: 60vh; /* Set container height as 60% of viewport height */
+    height: 60vh; /* Set container height as 60% of viewport height by default */
   }
   
   .embla__slide {
@@ -91,8 +91,19 @@ html {
   }
   
   .embla__slide img {
-    max-width: 100%; /* Ensure image doesn't exceed container width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; /* Resize image to fill the container width */
+    height: 100%; /* Resize image to fill the container height */
+    object-fit: contain; /* Maintain aspect ratio without stretching */
   }
   
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .embla__container {
+      height: 40vh;
+      width: 30vh; /* Adjust container height for smaller screens */
+      .border-mobile {
+        border-width: 5px; /* Adjust the border width for mobile view */
+      }
+    }
+  }
   
