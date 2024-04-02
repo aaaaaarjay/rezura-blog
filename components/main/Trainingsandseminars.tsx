@@ -22,60 +22,52 @@ const Trainingsandseminars = () => {
                 Certificates
             </motion.div>
 
-            <div className="flex justify-center items-center flex-col">
-
-
-    <div className="max-w-[1500px] flex flex-col md:flex-row gap-10 my-5">
-        
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/1.jpg" alt="certs" className="w-[600px] h-auto p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/2.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/3.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-    </div>
-    </div>
-
-    <div className="max-w-[1500px] flex flex-col md:flex-row gap-10 my-5 ">
-        
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/4.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/5.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/6.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        </div>
-        <div className="max-w-[1500px] flex flex-col md:flex-row gap-10 my-5 ">
-        
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/7.png" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/1.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/2.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        </div>
-        <div className="max-w-[1500px] flex flex-col md:flex-row gap-10 my-5 ">
-        
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/3.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/4.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/5.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        </div>
-
-</div>
+            <div >
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/1.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/2.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/3.jpg" alt="scc" width={600} height={300} />
+                </div>
+            </div>
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/4.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/5.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/6.jpg" alt="scc" width={600} height={300} />
+                </div>
+            </div>
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/7.png" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/1.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/2.jpg" alt="scc" width={600} height={300} />
+                </div>
+            </div>
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/3.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/4.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/5.jpg" alt="scc" width={600} height={300} />
+                </div>
+            </div>
+            </div>
 
 
 

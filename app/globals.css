@@ -8,6 +8,9 @@
 .cursive {
     font-family: "Cedarville Cursive", cursive;
 }
+body {
+  overflow-y: hidden;
+}
 .Welcome-text {
     background: linear-gradient(
             0deg,
@@ -80,6 +83,7 @@ html {
   justify-content: center; /* Center the slides horizontally */
   align-items: center; /* Center the slides vertically */
   height: 60vh; /* Set container height as 60% of viewport height by default */
+  width: 100%; /* Ensure the container fills the entire width */
 }
 
 .embla__slide {

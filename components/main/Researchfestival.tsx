@@ -4,6 +4,7 @@ import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 import { motion } from "framer-motion";
 import { slideInFromLeft } from "@/utils/motion";
+import Image from "next/image";
 
 const Researchfestival = () => {
     return (
@@ -14,6 +15,34 @@ const Researchfestival = () => {
             <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 text-center">
                 Research Festival
             </h1>
+
+
+
+
+            <div>
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/pic20.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/pic18.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/pic19.jpg" alt="scc" width={600} height={300} />
+                </div>
+            </div>
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/pic21.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/pic22.jpg" alt="scc" width={600} height={300} />
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10">
+                <Image src="/pic23.jpg" alt="scc" width={600} height={300} />
+                </div>
+            </div>
+            </div>
             
 
             {/*
@@ -41,42 +70,9 @@ const Researchfestival = () => {
 
 
 
-
-
-            <div className="flex justify-center items-center flex-col">
-
-
-    <div className="max-w-[1500px] flex flex-col md:flex-row gap-10 my-5">
-        
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/pic20.jpg" alt="certs" className="w-[600px] h-auto p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/pic18.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/pic19.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-    </div>
-    </div>
-
-    <div className="max-w-[1500px] flex flex-col md:flex-row gap-10 my-5 ">
-        
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/pic21.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/pic22.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full md:w-1/2 text-white items-center justify-center">
-            <img src="/pic23.jpg" alt="certs" className="w-[600px] h-auto m-10 p-6" />
-        </div>
-        </div>
-
-</div>
-
 <motion.div
                 variants={slideInFromLeft(0.5)}
-                className="text-[30px] text-white font-bold mt-[10px] mb-10 text-center"
+                className="text-[30px] text-white font-bold mt-[40px] mb-10 text-center"
             >
                 Presentation
             </motion.div>
