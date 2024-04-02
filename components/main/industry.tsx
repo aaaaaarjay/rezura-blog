@@ -18,7 +18,7 @@ const Projects = () => {
 
 
 
-            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40">
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10  md:px-40">
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center h-full  md:flex-col gap-10 p-20">
                 <Image src="/pinya.webp" alt="scc" width={300} height={300} />
                 <p className="p-6 flex text-center text-[20px] text-gray-200 mb-10 mt-[10px]">
