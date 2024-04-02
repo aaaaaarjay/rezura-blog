@@ -83,7 +83,7 @@ html {
   justify-content: center; /* Center the slides horizontally */
   align-items: center; /* Center the slides vertically */
   height: 60vh; /* Set container height as 60% of viewport height by default */
-  width: 60vh; /* Ensure the container fills the entire width */
+  width: 100vh; /* Ensure the container fills the entire width */
 }
 
 .embla__slide {
