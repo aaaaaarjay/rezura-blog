@@ -40,7 +40,7 @@ const Aboutmecontent = () => {
             >
                 These technologies align closely with the requirements of my role at Studio Pinya, motivating my pursuit to master them. 
                 <br />  
-                Additionally, I have a keen interest in languages like HTML, CSS, JavaScript, and PHP, which I"ve explored through personal projects and coursework.
+                Additionally, I have a keen interest in languages like HTML, CSS, JavaScript, and PHP, which I&quot;ve explored through personal projects and coursework.
             </motion.div>
 
             {/* Big Icons */}

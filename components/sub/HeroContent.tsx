@@ -65,7 +65,7 @@ const HeroContent = () => {
                       
                       Studio PInya,
                     </span>    
-                         where I"m actively expanding and applying my skill set into it.
+                         where I&quot;m actively expanding and applying my skill set into it.
                     </span>
                 </motion.p>
                 <motion.a
