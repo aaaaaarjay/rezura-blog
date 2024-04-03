@@ -5,6 +5,7 @@ import ProjectCard from "../sub/ProjectCard";
 import { motion } from "framer-motion";
 import { slideInFromLeft } from "@/utils/motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Researchfestival = () => {
     return (
@@ -43,6 +44,16 @@ const Researchfestival = () => {
                 </div>
             </div>
             </div>
+
+            <div>
+                <Link 
+                href=""
+                className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center px-10 py-5 hover:bg-white"
+                >
+                        CLICK HERE
+                </Link>
+            </div>
+
             
 
             {/*

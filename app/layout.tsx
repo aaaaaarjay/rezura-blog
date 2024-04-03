@@ -21,9 +21,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${raleway.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}>
       <StarsCanvas />
+      <StarsCanvas />
+      <StarsCanvas />
       <Navbar />
       {children}
       <Footer />
+      
       </body>
     </html>
   )
