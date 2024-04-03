@@ -37,38 +37,34 @@ const HeroContent = () => {
                 </motion.div>
 
                 <motion.p
-                    variants={slideInFromLeft(0.8)}
-                    className="text-lg text-gray-400 my-5 max-w-[600px]"
-                >
-                    <span>
-                    I am 
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                      
-                        Arjay Alangcas,
-                    </span>
-                    a 22-year-old 
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                      
-                        Computer Science
-                    </span>
-                    student at 
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                      
-                      Saint Columban College,
-                    </span>
-                     from Tukuran, Zamboanga Del Sur. Currently, I am immersed in an internship as a 
-                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                      
-                      Front-End Developer 
-                    </span>
-                        at 
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                      
-                      Studio PInya,
-                    </span>    
-                         where I&quot;m actively expanding and applying my skill set into it.
-                    </span>
-                </motion.p>
+    variants={slideInFromLeft(0.8)}
+    className="text-lg text-gray-400 my-5 max-w-[600px]"
+>
+    <span>
+        I am{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Arjay Alangcas,
+        </span>{' '}
+        a 22-year-old{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Computer Science
+        </span>{' '}
+        student at{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Saint Columban College,
+        </span>{' '}
+        from Tukuran, Zamboanga Del Sur. Currently, I am immersed in an internship as a{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Front-End Developer
+        </span>{' '}
+        at{' '}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            Studio PInya,
+        </span>{' '}
+        where I'm actively expanding and applying my skill set into it.
+    </span>
+</motion.p>
+
                 <motion.a
                 href="#skills"
                     variants={slideInFromLeft(1)}
