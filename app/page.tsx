@@ -9,11 +9,14 @@ import Industry from '@/components/main/industry';
 import Educationaltour from '@/components/main/Educationaltour';
 import Researchfestival from '@/components/main/Researchfestival';
 import Schoolanddepartment from '@/components/main/Schoolanddepartment';
+import Cursor from '@/components/Cursor';
 
 export default function Home() {
   return (
       <main className="h-full w-full">
+        <Cursor  />
           <div className="flex flex-col gap-20 items-center justify-center">
+            
               <Hero />
               <Skills />
               <Industry />
