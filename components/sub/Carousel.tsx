@@ -1,17 +1,16 @@
 import React, { useEffect } from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
-import Image from "next/image"
 
 export function EmblaCarousel() {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()])
+  const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
   return (
     <div className="carousel-wrapper">
       <div className="embla" ref={emblaRef}>
         <div className="embla__container text-white">
-        <div className="embla__slide">
-                     <img src="/pic1.jpg" alt="1" />
+          <div className="embla__slide">
+            <img src="/pic1.jpg" alt="1" />
                      </div>
                 <div className="embla__slide">
                     <img src="/pic2.jpg" alt="2"/>
@@ -61,66 +60,6 @@ export function EmblaCarousel() {
                 <div className="embla__slide">
                     <img src="/pic17.jpg" alt="17"/>
                      </div>
-
-
-
-{/** 
-        <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic2.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic3.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic4.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={1000} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={800} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={800} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={800} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={800} height={300} />
-                     </div>
-                     <div className="embla__slide">
-            <Image src="/pic1.jpg" alt="scc" width={800} height={300} />
-                     </div>
-*/}
-
-
-              
-                     
 
         </div>
         </div>

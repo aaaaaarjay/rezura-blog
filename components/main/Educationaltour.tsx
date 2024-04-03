@@ -15,7 +15,7 @@ const Educationaltour = () => {
             <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 mt-20 mb-[40px] text-center">
                 Educational Tour
             </h1>
-            <div className="rounded-lg shadow-lg border border-[#2A0E61] p-8 items-center w-auto">
+            <div className="rounded-lg shadow-lg border border-[#2A0E61] p-8 items-center w-auto transtion duration-300 z-[30] hover:scale-105">
             <EmblaCarousel />
             </div>
 
