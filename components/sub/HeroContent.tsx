@@ -26,13 +26,14 @@ const HeroContent = () => {
                     className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
                 >
                   <span>
-                    Im
+                    <span style={{ marginRight: "0.25em" }}>Im</span>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 m-auto">
                         Arjay Alangcas
                         <br />
                     </span>
-                    FrontEnd Developer
-                    </span>
+                    <span>Front-</span>
+                    <span >End Developer</span>
+                </span>
                 </motion.div>
 
                 <motion.p
