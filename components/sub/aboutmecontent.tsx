@@ -7,7 +7,7 @@ import { Pinya } from "@/constants"; // Import the data
 
 const Aboutmecontent = () => {
     return (
-        <div className="w-full h-auto flex flex-col items-center justify-center">
+        <div className="w-full h-auto flex flex-col items-center justify-center ">
 
 <motion.div
                 variants={slideInFromLeft(0.5)}

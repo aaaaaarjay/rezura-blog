@@ -15,8 +15,8 @@ const Ojtblog = () => {
 
 
             <div>
-            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4">
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40 ">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/dr1.jpg" alt="scc" width={300} height={300} />
                 <div className="flex text-lg font-bold py-2">
                 WEEK 1 - Febuary 19 - 24
@@ -25,7 +25,7 @@ const Ojtblog = () => {
                 During the first week of our project, we established our workspace and met with the CEO and staff to define website features. We then researched essential tools and technologies, setting them up by the third day. Diving into tutorials, we honed our skills and understanding. As the week advanced, we shifted to practical tasks, initiating the websites UI design. Additionally, some team members explored Next.js and Tailwind CSS further through tutorials and practical exercises.
                 </p>
                 </div>
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/dr2.jpg" alt="scc" width={300} height={300} />
                 <div className="flex text-lg font-bold py-2">
                 WEEK 2 - Febuary 26 - March 1
@@ -34,7 +34,7 @@ const Ojtblog = () => {
                 Throughout the week, I focused on front-end UI design using Next.js and Tailwind CSS. Day one started my own UI design project, laying the groundwork. Day two continued refining and expanding this work. Day three began replicating UI designs from our UI/UX developer. Day four involved developing the front end for the registration page. Day five refined registration page functionality and made minor adjustments for consistency and user-friendliness across registration and login pages.
                 </p>
                 </div>
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/dr3.jpg" alt="scc" width={300} height={300} />
                 <div className="flex text-lg font-bold py-2">
                 WEEK 3 - March 2 - 8
@@ -45,7 +45,7 @@ const Ojtblog = () => {
                 </div>
             </div>
             <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
-            <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4">
+            <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/dr4.jpg" alt="scc" width={300} height={300} />
                 <div className="flex text-lg font-bold py-2">
                 WEEK 4 - March 11 - 15
@@ -54,7 +54,7 @@ const Ojtblog = () => {
                 Throughout the week, I focused on updating our websites front end to reflect a new design. I finalized the admin dashboard layout on day one and moved on to implementing the new design on novel pages, including the novel approval page, on day two. Day three involved adapting the new design for the novel chapter view. On day four, I continued front-end development while also meeting with a front-end developer expert to ensure alignment with best practices.
                 </p>
                 </div>
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/dr5.jpg" alt="scc" width={300} height={300} />
                 <div className="flex text-lg font-bold py-2">
                 WEEK 5 - March 18 - 22
@@ -63,7 +63,7 @@ const Ojtblog = () => {
                 During the week, I focused on front-end development tasks. Day one involved initiating work on the artist sides front end and crafting the artist side sidebar. On day two, I created a modal for the admin side and integrated all front-end pages provided by the developer. Day three was spent fixing functions on admin-side pages and finalizing the sidebar. Day four saw the start of development on the create novel page for the artist side, and day five was dedicated to its continued development.
                 </p>
                 </div>
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/dr6.jpg" alt="scc" width={300} height={300} />
                 <div className="flex text-lg font-bold py-2">
                 WEEK 6 - March 25 - 27

@@ -14,13 +14,13 @@ const Schoolanddepartment = () => {
             </h1>
 
             <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40">
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/scclogo.png" alt="scc" width={300} height={300} />
                 <p className="p-6 flex text-center text-[20px]">
                 Known to be one of the most leading institutions in Pagadian City, Saint Columban College, in its pursuit of academic excellence and character formation, has taken on the spotlight of producing globally-competitive graduates since its founding. As an institution since 1957, SCC offers the complete educational package from kindergarten to graduate school. Withstanding every challenge and adversities for 64 years and counting; SCC became not just an institution but a home to many SCCians.
                 </p>
                 </div>
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/ccslogo.png" alt="ccs" width={300} height={300} />
                 <p className="p-6 flex text-center text-[20px]">
                 The College of Computing Studies (CCS) is a hub for innovation in information technology, computer science, information systems, and library and information science. Programs are guided by accomplished professionals and experienced academics, offering a dynamic blend of theory and hands-on experience, preparing students for success in these rapidly evolving fields.

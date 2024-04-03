@@ -7,7 +7,7 @@ import { Interest } from "@/constants"; // Import the data
 
 const InterestComponent: React.FC = () => {
     return (
-        <div className="w-full h-auto flex flex-col items-center justify-center">
+        <div className="w-full h-auto flex flex-col items-center justify-center ">
             {/* Big Icons */}
             <div className="flex justify-center mt-[10px]">
                 {Interest.map((item: { name: string, src: string }, index: number) => (
