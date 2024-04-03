@@ -8,8 +8,8 @@ import Footer from "@/components/main/Footer";
 const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Blog',
-  description: 'Arjay Alangcas Website',
+  title: 'RJ',
+  description: 'Arjay Alangcas Blog',
 }
 
 export default function RootLayout({

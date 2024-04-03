@@ -21,7 +21,7 @@ const Projects = () => {
 
 
             <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10  md:px-40">
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center h-full  md:flex-col gap-10 p-20">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center h-full  md:flex-col gap-10 p-20 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/pinya.webp" alt="scc" width={300} height={300} />
                 <p className="p-6 flex text-center text-[20px] ">
                 Founded by two college buddies who shared a passion for reading, and a dream of showcasing the incredible creativity of Filipino talent to the world.

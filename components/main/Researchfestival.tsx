@@ -45,17 +45,7 @@ const Researchfestival = () => {
             </div>
             </div>
 
-            <div className="flex flex-col items-center justify-center gap-2">
-            <Link 
-            target="_blank" 
-            rel="noopener noreferrer"
-            href={"https://sandmen.web.app"}
-            className="flex relative rounded-lg shadow-lg border text-[20px] border-[#2A0E61] w-full text-white flex-col items-center justify-center px-10 py-5 transtion duration-300 hover:bg-[#2a0e6177] hover:scale-105 hover:border-[#ffffffc2] z-[30]"
-            >
-                CLICK HERE
-            </Link>
-            <div className="text-white text-[13px]">Visit our site</div>
-            </div>
+            
 
             
 
@@ -84,12 +74,21 @@ const Researchfestival = () => {
 
 
 
-<motion.div
-                variants={slideInFromLeft(0.5)}
-                className="text-[30px] text-white font-bold mt-[40px] mb-10 text-center"
-            >
+                <div className="text-[30px] text-white font-bold mt-[40px] mb-10 text-center">
                 Presentation
-            </motion.div>
+                 </div>
+
+                 <div className="flex flex-col items-center justify-center gap-2">
+            <Link 
+            target="_blank" 
+            rel="noopener noreferrer"
+            href={"https://sandmen.web.app"}
+            className="flex relative rounded-lg shadow-lg border text-[20px] border-[#2A0E61] w-full text-white flex-col items-center justify-center px-10 py-5 transtion duration-300 hover:bg-[#2a0e6177] hover:scale-105 hover:border-[#ffffffc2] z-[30]"
+            >
+                CLICK HERE
+            </Link>
+            <div className="text-white text-[13px]">Visit our site</div>
+            </div>
 
 
         </div>

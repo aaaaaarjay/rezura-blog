@@ -35,25 +35,25 @@ const Navbar = () => {
                 <div className="md:hidden" style={{ position: "absolute", top: "calc(100% + 10px)", left: 0, width: "100%" }}>
                     <div className={`${menuOpen ? 'block' : 'hidden'}`}>
                         <div className="flex flex-col items-center w-[full] bg-[#110c308c] px-4 text-gray-200 rounded-lg font-semibold ">
-                            <a href="#about-me" className="cursor-pointer py-4" onClick={toggleMenu}>
+                            <a href="#about-me" className="cursor-pointer py-4 transtion duration-300 hover:text-[#6051b3be]" onClick={toggleMenu}>
                             About Me
                             </a>
-                            <a href="#industry" className="cursor-pointer py-4" onClick={toggleMenu}>
+                            <a href="#industry" className="cursor-pointer py-4 transtion duration-300 hover:text-[#6051b3be]" onClick={toggleMenu}>
                                 Industry
                             </a>
-                            <a href="#ojtblog" className="cursor-pointer py-4" onClick={toggleMenu}>
+                            <a href="#ojtblog" className="cursor-pointer py-4 transtion duration-300 hover:text-[#6051b3be]" onClick={toggleMenu}>
                                 OJT Blog
                             </a>
-                            <a href="#schoolanddepartment" className="cursor-pointer py-4" onClick={toggleMenu}>
+                            <a href="#schoolanddepartment" className="cursor-pointer py-4 transtion duration-300 hover:text-[#6051b3be]" onClick={toggleMenu}>
                                 School & Department
                             </a>
-                            <a href="#educationaltour" className="cursor-pointer py-4" onClick={toggleMenu}>
+                            <a href="#educationaltour" className="cursor-pointer py-4 transtion duration-300 hover:text-[#6051b3be]" onClick={toggleMenu}>
                                 Educational Tour
                             </a>
-                            <a href="#researchfestival" className="cursor-pointer py-4" onClick={toggleMenu}>
+                            <a href="#researchfestival" className="cursor-pointer py-4 transtion duration-300 hover:text-[#6051b3be]" onClick={toggleMenu}>
                                 Research Festival
                             </a>
-                            <a href="#trainingsandseminars" className="cursor-pointer py-4" onClick={toggleMenu}>
+                            <a href="#trainingsandseminars" className="cursor-pointer py-4 transtion duration-300 hover:text-[#6051b3be]" onClick={toggleMenu}>
                                 Trainings & Seminars
                             </a>
                             
@@ -75,25 +75,25 @@ const Navbar = () => {
                 </div>
 
                 <div className="hidden md:flex items-center md:font-sm justify-center gap-8 w-auto h-auto bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200" style={{ border: "1px solid rgba(112, 66, 248, 0.384)" }}>
-                    <a href="#about-me" className="cursor-pointer">
+                    <a href="#about-me" className="cursor-pointer transtion duration-300 hover:text-[#6051b3be]">
                         About Me
                     </a>
-                    <a href="#industry" className="cursor-pointer">
+                    <a href="#industry" className="cursor-pointer transtion duration-300 hover:text-[#6051b3be]">
                         Industry
                     </a>
-                    <a href="#ojtblog" className="cursor-pointer">
+                    <a href="#ojtblog" className="cursor-pointer transtion duration-300 hover:text-[#6051b3be]">
                         OJT Blog
                     </a>
-                    <a href="#schoolanddepartment" className="cursor-pointer">
+                    <a href="#schoolanddepartment" className="cursor-pointer transtion duration-300 hover:text-[#6051b3be]">
                         School & Department
                     </a>
-                    <a href="#educationaltour" className="cursor-pointer">
+                    <a href="#educationaltour" className="cursor-pointer transtion duration-300 hover:text-[#6051b3be]">
                         Educational Tour
                     </a>
-                    <a href="#researchfestival" className="cursor-pointer">
+                    <a href="#researchfestival" className="cursor-pointer transtion duration-300 hover:text-[#6051b3be]">
                         Research Festival
                     </a>
-                    <a href="#trainingsandseminars" className="cursor-pointer">
+                    <a href="#trainingsandseminars" className="cursor-pointer transtion duration-300 hover:text-[#6051b3be]">
                         Trainings & Seminars
                     </a>
                     
