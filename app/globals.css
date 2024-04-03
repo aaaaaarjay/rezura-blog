@@ -10,7 +10,12 @@
 }
 body {
   overflow-y: hidden;
+  cursor: none;
 }
+*, *::before, *::after, button, a, input[type="button"], input[type="submit"] {
+  cursor: none !important;
+}
+
 .Welcome-text {
     background: linear-gradient(
             0deg,
