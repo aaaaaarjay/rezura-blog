@@ -26,7 +26,7 @@ const HeroContent = () => {
                     className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
                 >
                   <span>
-                    <span style={{ marginRight: "0.25em" }}>Im</span>
+                    Im&#160;
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 m-auto">
                         Arjay Alangcas
                         <br />
@@ -37,33 +37,38 @@ const HeroContent = () => {
                 </motion.div>
 
                 <motion.p
-    variants={slideInFromLeft(0.8)}
-    className="text-lg text-gray-400 my-5 max-w-[600px]"
->
-    <span>
-        I am{' '}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Arjay Alangcas,
-        </span>{' '}
-        a 22-year-old{' '}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Computer Science
-        </span>{' '}
-        student at{' '}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Saint Columban College,
-        </span>{' '}
-        from Tukuran, Zamboanga Del Sur. Currently, I am immersed in an internship as a{' '}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Front-End Developer
-        </span>{' '}
-        at{' '}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Studio PInya,
-        </span>{' '}
-        where I'm actively expanding and applying my skill set into it.
-    </span>
-</motion.p>
+                    variants={slideInFromLeft(0.8)}
+                    className="text-lg text-gray-400 my-5 max-w-[600px]"
+                >
+                    <span>
+                    I am
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                      
+                    &#160;Arjay Alangcas&#160;
+                    </span>
+                    a 22-year-old
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                      
+                    &#160;Computer Science&#160;
+                    </span>
+                    student at 
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                      
+                    &#160;Saint Columban College&#160;
+                    </span>
+                     from Tukuran, Zamboanga Del Sur. Currently, I am immersed in an internship as a 
+                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                      
+                     &#160;Front-End Developer&#160;
+                    </span>
+                        at 
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                      
+                        &#160;Studio Pinya,&#160;
+                    </span>    
+                         where I&#39;m actively expanding and applying my skill set into it.
+                    </span>
+                </motion.p>
 
                 <motion.a
                 href="#skills"

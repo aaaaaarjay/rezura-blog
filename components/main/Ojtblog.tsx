@@ -22,7 +22,7 @@ const Ojtblog = () => {
                 WEEK 1 - Febuary 19 - 24
                 </div>
                 <p className="px-6 flex text-center ">
-                During the first week of our project, we established our workspace and met with the CEO and staff to define website features. We then researched essential tools and technologies, setting them up by the third day. Delving into tutorials, we honed our skills and understanding. As the week advanced, we shifted to practical tasks, initiating the websites UI design. Additionally, some team members explored Next.js and Tailwind CSS further through tutorials and practical exercises.
+                During the first week of our project, we established our workspace and met with the CEO and staff to define website features. We then researched essential tools and technologies, setting them up by the third day. Diving into tutorials, we honed our skills and understanding. As the week advanced, we shifted to practical tasks, initiating the websites UI design. Additionally, some team members explored Next.js and Tailwind CSS further through tutorials and practical exercises.
                 </p>
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4">
