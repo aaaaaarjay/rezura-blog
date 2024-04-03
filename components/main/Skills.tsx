@@ -33,18 +33,18 @@ const Skills = () => {
                 ))}
             </div>
 
-            <div className='text-[30px] font-bold text-gray-200 mt-56 text-center'>
+            <div className="text-[30px] font-bold text-gray-200 mt-56 text-center">
                 Program & Degree
             </div>
-            <div className=' text-[20px] text-gray-200 mb-32 mt-[10px] text-center  gap-10  md:px-40'>
-            The BSCS is a rigorous four-year program offering students a deep understanding of computing concepts and practical skills in algorithmic foundations and cutting-edge technologies. Covering topics from programming languages to cybersecurity, the curriculum fosters critical thinking and problem-solving. Through projects, internships, and research, students gain real-world experience essential for success in today's digital world. Graduates are equipped for diverse careers in software development, IT consulting, and more, contributing to industries like finance, healthcare, and entertainment.
+            <div className=" text-[20px] text-gray-200 mb-32 mt-[10px] text-center  gap-10  md:px-40">
+            The BSCS is a rigorous four-year program offering students a deep understanding of computing concepts and practical skills in algorithmic foundations and cutting-edge technologies. Covering topics from programming languages to cybersecurity, the curriculum fosters critical thinking and problem-solving. Through projects, internships, and research, students gain real-world experience essential for success in today"s digital world. Graduates are equipped for diverse careers in software development, IT consulting, and more, contributing to industries like finance, healthcare, and entertainment.
             </div>
 
-            <div className='text-[30px] font-bold text-gray-200 text-center'>
+            <div className="text-[30px] font-bold text-gray-200 text-center">
                 Purpose of Practicum
             </div>
-            <div className=' text-[20px] text-gray-200 mb-10 text-center  gap-10  md:px-40'>
-            As a fourth-year Bachelor of Science in Computer Science student, my participation in the internship at Studio Pinya as a front-end developer serves to apply and further develop my skills in web development within a professional environment. Specifically, my role entails contributing to the creation of Studio Pinya's website, which serves as a platform for artists to upload and explore novels or comics. By actively engaging in this internship, I aim to gain practical experience in designing and implementing user-friendly interfaces while collaborating with the team to deliver a visually appealing and functional website. This opportunity not only enriches my academic learning but also provides valuable insights into the industry and contributes to the growth of Studio Pinya as a startup company.
+            <div className=" text-[20px] text-gray-200 mb-10 text-center  gap-10  md:px-40">
+            As a fourth-year Bachelor of Science in Computer Science student, my participation in the internship at Studio Pinya as a front-end developer serves to apply and further develop my skills in web development within a professional environment. Specifically, my role entails contributing to the creation of Studio Pinya"s website, which serves as a platform for artists to upload and explore novels or comics. By actively engaging in this internship, I aim to gain practical experience in designing and implementing user-friendly interfaces while collaborating with the team to deliver a visually appealing and functional website. This opportunity not only enriches my academic learning but also provides valuable insights into the industry and contributes to the growth of Studio Pinya as a startup company.
             </div>
 
 
