@@ -37,7 +37,7 @@ const Ojtblog = () => {
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/dr3.jpg" alt="scc" width={300} height={300} />
                 <div className="flex text-lg font-bold py-2">
-                WEEK 3 - March 2 - 8
+                WEEK 3 - March 4 - 8
                 </div>
                 <p className="px-6 flex text-center ">
                 Throughout the week, I focused on front-end development, enhancing user experience. Day one involved creating navigation elements for various pages. Day two centered on refining the admin dashboards front end. Day three saw development of the novel approval page and versatile components. Day four focused on improving the chapter view pages presentation. Day five continued refining the chapter view and associated components for a cohesive user experience.
@@ -73,6 +73,61 @@ const Ojtblog = () => {
                 </p>
                 </div>
             </div>
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
+            <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
+                <Image src="/dr7.jpg" alt="scc" width={300} height={300} />
+                <div className="flex text-lg font-bold py-2">
+                WEEK 7 - April 1 - 5
+                </div>
+                <p className="px-6 flex text-center ">
+               
+                
+Throughout the week, my focus was solely on developing the front end of the project page and its components. On day one, I dedicated my efforts to enhancing the front-end and addressing any errors present. Day two involved further refinement and bug fixing. On day three, I continued with the development process, ensuring the seamless integration of components and pages. By day four, I had made significant progress in creating and optimizing the project page's front-end. Finally, on day five, I concentrated on implementing new designs and improving the user interface to align with project requirements.
+                </p>
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
+                <Image src="/dr8.jpg" alt="scc" width={300} height={300} />
+                <div className="flex text-lg font-bold py-2">
+                WEEK 8 - April 8 - 12
+                </div>
+                <p className="px-6 flex text-center ">
+                
+                
+                
+
+                
+Throughout the week, my focus was on developing the front end of the admin side, particularly the originals and review novels pages; day one involved initiating work on these pages with the aim of completing them the next day, while day two saw me addressing sizing issues with the sidebar, fixing other components, and beginning to create modals for the review novels page, with day three dedicated to continued work on these modals and components, ensuring they align seamlessly with the project's vision. As the week progressed, each day presented new challenges and opportunities for refinement.
+                </p>
+                </div>
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
+                <Image src="/dr9.jpg" alt="scc" width={300} height={300} />
+                <div className="flex text-lg font-bold py-2">
+                WEEK 9 - April 15 - 19
+                </div>
+                <p className="px-6 flex text-center ">
+                Throughout the week, I focused on developing various pages and modals for the project. On day one, I fixed modal functions from the previous task and created a new page for the review novels chapter view. Day two involved starting the artist details page and completing associated modals. On day three, I worked on the originals novel view page and created modals for it. Day four, I focused on fixing tables on the originals novel page and adding new modals and functionalities. Finally, on day five, I continued to add functions to modals, components, and buttons across the project.
+                </p>
+                </div>
+            </div>
+            </div>
+
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-row items-center justify-center transtion duration-300 z-[30] hover:scale-105">
+                <Image className="p-10" src="/sp1.jpg" alt="scc" width={600} height={300} />
+                <p className="p-6 flex text-left text-[20px]">
+                
+                During my internship journey at Studio Pinya, I've been deeply immersed in the intricate process of developing our novel website, Studio Pinya, employing the powerful trio of Next.js, TypeScript, and Tailwind CSS. While the journey has been filled with its fair share of challenges, each hurdle has served as a stepping stone for growth. Through persistent effort and a commitment to continuous learning, I've navigated through complexities, honing my skills and deepening my understanding of these technologies.
+                <br/>
+                <br/>
+                Working alongside a diverse team of frontend and backend developers, as well as collaborating closely with a talented UI/UX designer, has provided me with a rich and dynamic learning environment. Together, we've synergized our efforts, sharing insights and expertise to create a cohesive and visually appealing platform for readers to enjoy immersive storytelling experiences.
+                <br/>
+                <br/>
+                The journey hasn't just been about technical mastery; it's also been a journey of personal and professional development. Embracing version control through GitHub and adopting Agile methodologies with tools like Jira have broadened my horizons, equipping me with essential project management skills that extend beyond coding.
+                <br/>
+                <br/>
+                As I reflect on my experiences and look toward the future, I'm excited about the possibilities that lie ahead. Armed with newfound knowledge, skills, and a passion for web development, I'm eager to continue contributing meaningfully to projects like Studio Pinya and beyond, making a tangible impact in the ever-evolving landscape of digital storytelling.
+                </p>
+                </div>
             </div>
 
 
