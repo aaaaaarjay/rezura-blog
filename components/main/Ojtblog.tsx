@@ -11,9 +11,6 @@ const Ojtblog = () => {
             <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20 text-center">
                 On-the-Job Training Blog
             </h1>
-
-
-
             <div>
             <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40 ">
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
@@ -80,9 +77,7 @@ const Ojtblog = () => {
                 WEEK 7 - April 1 - 5
                 </div>
                 <p className="px-6 flex text-center ">
-               
-                
-Throughout the week, my focus was solely on developing the front end of the project page and its components. On day one, I dedicated my efforts to enhancing the front-end and addressing any errors present. Day two involved further refinement and bug fixing. On day three, I continued with the development process, ensuring the seamless integration of components and pages. By day four, I had made significant progress in creating and optimizing the project page&apos;s front-end. Finally, on day five, I concentrated on implementing new designs and improving the user interface to align with project requirements.
+                Throughout the week, my focus was solely on developing the front end of the project page and its components. On day one, I dedicated my efforts to enhancing the front-end and addressing any errors present. Day two involved further refinement and bug fixing. On day three, I continued with the development process, ensuring the seamless integration of components and pages. By day four, I had made significant progress in creating and optimizing the project page&apos;s front-end. Finally, on day five, I concentrated on implementing new designs and improving the user interface to align with project requirements.
                 </p>
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
@@ -90,13 +85,8 @@ Throughout the week, my focus was solely on developing the front end of the proj
                 <div className="flex text-lg font-bold py-2">
                 WEEK 8 - April 8 - 12
                 </div>
-                <p className="px-6 flex text-center ">
-                
-                
-                
-
-                
-Throughout the week, my focus was on developing the front end of the admin side, particularly the originals and review novels pages; day one involved initiating work on these pages with the aim of completing them the next day, while day two saw me addressing sizing issues with the sidebar, fixing other components, and beginning to create modals for the review novels page, with day three dedicated to continued work on these modals and components, ensuring they align seamlessly with the project&apos;s vision. As the week progressed, each day presented new challenges and opportunities for refinement.
+                <p className="px-6 flex text-center ">     
+                Throughout the week, my focus was on developing the front end of the admin side, particularly the originals and review novels pages; day one involved initiating work on these pages with the aim of completing them the next day, while day two saw me addressing sizing issues with the sidebar, fixing other components, and beginning to create modals for the review novels page, with day three dedicated to continued work on these modals and components, ensuring they align seamlessly with the project&apos;s vision. As the week progressed, each day presented new challenges and opportunities for refinement.
                 </p>
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
@@ -111,7 +101,7 @@ Throughout the week, my focus was on developing the front end of the admin side,
             </div>
             </div>
 
-            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40">
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 md:mt-10 px-10 md:px-40">
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col md:flex-row md items-center justify-center transtion duration-300 z-[30] hover:scale-105">
                 <Image className="p-10" src="/sp1.jpg" alt="scc" width={600} height={300} />
                 <p className="p-6 flex text-[20px] text-justify md:text-left">
