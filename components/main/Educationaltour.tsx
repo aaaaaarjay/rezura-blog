@@ -17,11 +17,13 @@ const Educationaltour = () => {
             </h1>
             <div className="rounded-lg shadow-lg border border-[#2A0E61] p-8 items-center w-auto transtion duration-300 z-[30] hover:scale-105">
             <EmblaCarousel />
+            <p className="text-white text-xs flex justify-center">Slide Image from right to left</p>
             </div>
+            
 
 
             <div className='text-[30px] text-white font-medium mt-[40px] mb-10 text-center'>
-       
+            
             </div>
             <div className="text-[20px] text-gray-200 mb-10 text-center px-[80px] md:px-[100px]">
                 
