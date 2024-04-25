@@ -112,9 +112,9 @@ Throughout the week, my focus was on developing the front end of the admin side,
             </div>
 
             <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 px-10 md:px-40">
-                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-row items-center justify-center transtion duration-300 z-[30] hover:scale-105">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col md:flex-row md items-center justify-center transtion duration-300 z-[30] hover:scale-105">
                 <Image className="p-10" src="/sp1.jpg" alt="scc" width={600} height={300} />
-                <p className="p-6 flex text-left text-[20px]">
+                <p className="p-6 flex text-[20px] text-justify md:text-left">
                 
                 During my internship journey at Studio Pinya, I&apos;ve been deeply immersed in the intricate process of developing our novel website, Studio Pinya, employing the powerful trio of Next.js, TypeScript, and Tailwind CSS. While the journey has been filled with its fair share of challenges, each hurdle has served as a stepping stone for growth. Through persistent effort and a commitment to continuous learning, I&apos;ve navigated through complexities, honing my skills and deepening my understanding of these technologies.
                 <br/>
