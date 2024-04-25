@@ -82,7 +82,7 @@ const Ojtblog = () => {
                 <p className="px-6 flex text-center ">
                
                 
-Throughout the week, my focus was solely on developing the front end of the project page and its components. On day one, I dedicated my efforts to enhancing the front-end and addressing any errors present. Day two involved further refinement and bug fixing. On day three, I continued with the development process, ensuring the seamless integration of components and pages. By day four, I had made significant progress in creating and optimizing the project page's front-end. Finally, on day five, I concentrated on implementing new designs and improving the user interface to align with project requirements.
+Throughout the week, my focus was solely on developing the front end of the project page and its components. On day one, I dedicated my efforts to enhancing the front-end and addressing any errors present. Day two involved further refinement and bug fixing. On day three, I continued with the development process, ensuring the seamless integration of components and pages. By day four, I had made significant progress in creating and optimizing the project page&apos;s front-end. Finally, on day five, I concentrated on implementing new designs and improving the user interface to align with project requirements.
                 </p>
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
@@ -96,7 +96,7 @@ Throughout the week, my focus was solely on developing the front end of the proj
                 
 
                 
-Throughout the week, my focus was on developing the front end of the admin side, particularly the originals and review novels pages; day one involved initiating work on these pages with the aim of completing them the next day, while day two saw me addressing sizing issues with the sidebar, fixing other components, and beginning to create modals for the review novels page, with day three dedicated to continued work on these modals and components, ensuring they align seamlessly with the project's vision. As the week progressed, each day presented new challenges and opportunities for refinement.
+Throughout the week, my focus was on developing the front end of the admin side, particularly the originals and review novels pages; day one involved initiating work on these pages with the aim of completing them the next day, while day two saw me addressing sizing issues with the sidebar, fixing other components, and beginning to create modals for the review novels page, with day three dedicated to continued work on these modals and components, ensuring they align seamlessly with the project&apos;s vision. As the week progressed, each day presented new challenges and opportunities for refinement.
                 </p>
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center py-4 transtion duration-300 z-[30] hover:scale-105">
@@ -116,16 +116,16 @@ Throughout the week, my focus was on developing the front end of the admin side,
                 <Image className="p-10" src="/sp1.jpg" alt="scc" width={600} height={300} />
                 <p className="p-6 flex text-left text-[20px]">
                 
-                During my internship journey at Studio Pinya, I've been deeply immersed in the intricate process of developing our novel website, Studio Pinya, employing the powerful trio of Next.js, TypeScript, and Tailwind CSS. While the journey has been filled with its fair share of challenges, each hurdle has served as a stepping stone for growth. Through persistent effort and a commitment to continuous learning, I've navigated through complexities, honing my skills and deepening my understanding of these technologies.
+                During my internship journey at Studio Pinya, I&apos;ve been deeply immersed in the intricate process of developing our novel website, Studio Pinya, employing the powerful trio of Next.js, TypeScript, and Tailwind CSS. While the journey has been filled with its fair share of challenges, each hurdle has served as a stepping stone for growth. Through persistent effort and a commitment to continuous learning, I&apos;ve navigated through complexities, honing my skills and deepening my understanding of these technologies.
                 <br/>
                 <br/>
-                Working alongside a diverse team of frontend and backend developers, as well as collaborating closely with a talented UI/UX designer, has provided me with a rich and dynamic learning environment. Together, we've synergized our efforts, sharing insights and expertise to create a cohesive and visually appealing platform for readers to enjoy immersive storytelling experiences.
+                Working alongside a diverse team of frontend and backend developers, as well as collaborating closely with a talented UI/UX designer, has provided me with a rich and dynamic learning environment. Together, we&apos;ve synergized our efforts, sharing insights and expertise to create a cohesive and visually appealing platform for readers to enjoy immersive storytelling experiences.
                 <br/>
                 <br/>
-                The journey hasn't just been about technical mastery; it's also been a journey of personal and professional development. Embracing version control through GitHub and adopting Agile methodologies with tools like Jira have broadened my horizons, equipping me with essential project management skills that extend beyond coding.
+                The journey hasn&apos;t just been about technical mastery; it&apos;s also been a journey of personal and professional development. Embracing version control through GitHub and adopting Agile methodologies with tools like Jira have broadened my horizons, equipping me with essential project management skills that extend beyond coding.
                 <br/>
                 <br/>
-                As I reflect on my experiences and look toward the future, I'm excited about the possibilities that lie ahead. Armed with newfound knowledge, skills, and a passion for web development, I'm eager to continue contributing meaningfully to projects like Studio Pinya and beyond, making a tangible impact in the ever-evolving landscape of digital storytelling.
+                As I reflect on my experiences and look toward the future, I&apos;m excited about the possibilities that lie ahead. Armed with newfound knowledge, skills, and a passion for web development, I&apos;m eager to continue contributing meaningfully to projects like Studio Pinya and beyond, making a tangible impact in the ever-evolving landscape of digital storytelling.
                 </p>
                 </div>
             </div>
