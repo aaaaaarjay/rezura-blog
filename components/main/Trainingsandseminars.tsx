@@ -50,22 +50,27 @@ const Trainingsandseminars = () => {
                 <Image src="/7.png" alt="scc" width={600} height={300} />
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
-                <Image src="/1.jpg" alt="scc" width={600} height={300} />
+                <Image src="/8.jpg" alt="scc" width={600} height={300} />
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
-                <Image src="/2.jpg" alt="scc" width={600} height={300} />
+                <Image src="/9.jpg" alt="scc" width={600} height={300} />
                 </div>
             </div>
             <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
-                <Image src="/3.jpg" alt="scc" width={600} height={300} />
+                <Image src="/10.jpg" alt="scc" width={600} height={300} />
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
-                <Image src="/4.jpg" alt="scc" width={600} height={300} />
+                <Image src="/11.jpg" alt="scc" width={600} height={300} />
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
-                <Image src="/5.jpg" alt="scc" width={600} height={300} />
+                <Image src="/121212.jpg" alt="scc" width={600} height={300} />
                 </div>
+            </div>
+            <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
+                <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
+                <Image src="/PinyaCert.png" alt="scc" width={600} height={300} />
+            </div>
             </div>
             </div>
 

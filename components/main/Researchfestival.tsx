@@ -34,15 +34,16 @@ const Researchfestival = () => {
             </div>
             <div className="justify-between h-full w-full flex flex-col md:flex-row gap-10 mb-10 md:px-40">
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
-                <Image src="/pic21.jpg" alt="scc" width={600} height={300} />
+                <Image src="/pic22.jpg" alt="scc" width={600} height={300} />
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
-                <Image src="/pic22.jpg" alt="scc" width={600} height={300} />
+                <Image src="/121212.jpg" alt="scc" width={600} height={300} />
                 </div>
                 <div className="flex relative rounded-lg shadow-lg border border-[#2A0E61] w-full text-white flex-col items-center justify-center p-10 transtion duration-300 z-[30] hover:scale-105">
                 <Image src="/pic23.jpg" alt="scc" width={600} height={300} />
                 </div>
             </div>
+
             </div>
 
             
